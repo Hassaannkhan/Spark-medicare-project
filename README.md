@@ -3,9 +3,11 @@ This project demonstrates a data pipeline built using PySpark, designed to inges
 
 Features
 Data Ingestion:
+
 Supports reading data from CSV and Parquet file formats.
 
 Data Transformation:
+
 Adds new columns based on predefined logic.
 Converts column data types to ensure consistency.
 Concatenates multiple columns into a single one.
@@ -13,9 +15,11 @@ Drops unnecessary or redundant columns.
 Handles missing values by filling, dropping, or other customizable methods.
 
 Data Loading:
+
 Loads the transformed data into a MySQL database.
 
 Custom Logging:
+
 Implements custom loggers to track each stage of the data pipeline (ingestion, transformation, and loading).
 Logs key metrics and transformation steps for easy debugging and monitoring.
 Tech Stack
